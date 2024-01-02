@@ -74,7 +74,7 @@ const Card = ({ title, url }: CardProps) => {
         </div>
         <div style={{ padding: "0.5em" }}>
           <img
-            src="https://a.mktgcdn.com/p/czy8WMVlA4gTYidJ8qCF2b9ss9FeLdzOPUQATCp1aYM/1000x667.jpg"
+            src="https://c8.alamy.com/comp/J11E4B/the-new-york-stock-exchange-is-decorated-for-the-initial-public-offering-J11E4B.jpg"
             style={{ width: "42em" }}
           ></img>
         </div>
