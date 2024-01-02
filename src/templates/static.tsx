@@ -110,7 +110,7 @@ const Static: Template<ExternalImageRenderData> = ({ externalImage }) => {
   return (
     <>
       <PageLayout>
-        <Banner name={"Turtlehead Tacos"} />
+        <Banner name={"Yext Office Locations - Berlin"} />
         <div className="centered-container">
           <div className="section space-y-14 px-10">
             <Card {...externalImage} />

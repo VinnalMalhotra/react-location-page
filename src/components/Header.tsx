@@ -4,8 +4,16 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "#" },
+  { name: "Home", href: "https://www.yext.com/" },
+  { name: "About", href: "https://www.yext.com/about" },
+  { name: "Platform", href: "https://www.yext.com/platform" },
+  { name: "Solutions", href: "https://www.yext.com/solutions" },
+  { name: "Resources", href: "https://www.yext.com/resources" },
+  {
+    name: "Developers",
+    href: "https://hitchhikers.yext.com/create-playground-account",
+  },
+  { name: "Contact us", href: "https://www.yext.com/contact/sales" },
 ];
 
 const Header = () => {
@@ -56,8 +64,8 @@ const Header = () => {
               </div>
               <div className="flex items-center">
                 <Cta
-                  buttonText="Order Online"
-                  url="#"
+                  buttonText="Get Started"
+                  url="#global-form-modal"
                   style="text-white bg-orange shadow-md"
                 />
               </div>
